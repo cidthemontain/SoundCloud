@@ -9,7 +9,7 @@ public class Musica extends ItemDeBiblioteca implements Compartilhavel, Exibivel
     private String id;
 
     public Musica(String nome, String autor, double duracao, boolean favorita, Historico historico) {
-        super(nome); // CHAMA O CONSTRUTOR DA SUPERCLASSE ITEMDEBIBLIOTECA E DEFINE O NOME DA PORRA DA MUSICA
+        super(nome); 
         this.autor = autor;
         this.duracao = duracao;
         this.favorita = favorita;
